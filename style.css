@@ -10,6 +10,7 @@ h1 {
 }
 section {
     display:flex;
+    margin-bottom: 150px;
 }
 .width-div {
     width: 50%;
@@ -26,7 +27,15 @@ section {
     padding: 10px 40px;
     border-radius: 5px;
 }
-#First-section{
+.first-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-section{
+    display: flex;
+}
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
