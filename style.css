@@ -1,0 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+.tonmoy-color {
+    color: orange;
+}
+section {
+    display:flex;
+}
+.width-div {
+    width: 50%;
+    padding-left: 5%;
+}
+.width-div img{
+    width: 80%;
+}
