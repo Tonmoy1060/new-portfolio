@@ -21,7 +21,7 @@ const Book = () => {
     isLoading,
     refetch,
   } = useQuery("bookingId", () =>
-    fetch(`http://localhost:5000/bookingId/${params.id}`, {
+    fetch(`https://manufacturer-resume.onrender.com/bookingId/${params.id}`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

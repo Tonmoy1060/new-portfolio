@@ -5,7 +5,7 @@ const MakeAdmin = () => {
     e.preventDefault();
     const email = e.target.email.value;
     const updateEmail = {email:email}
-    fetch(`http://localhost:5000/user/admin/${email}`, {
+    fetch(`https://manufacturer-resume.onrender.com/user/admin/${email}`, {
       method: "PUT", // or 'PUT'
       headers: {
          'Content-Type': 'application/json',

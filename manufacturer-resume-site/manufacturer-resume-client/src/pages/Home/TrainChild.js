@@ -1,5 +1,6 @@
 import React from "react";
 import player from "../../assets/images/player.jpg";
+import bannerImage2 from '../../assets/images/banner3.jpg'
 
 const TrainChild = () => {
   return (
@@ -7,8 +8,8 @@ const TrainChild = () => {
       <div class="hero">
         <div class="hero-content flex-col lg:flex-row lg:px-14">
           <img
-            src={player}
-            class="max-w-sm rounded-lg shadow-2xl lg:mb-8 lg:mx-12"
+            src={bannerImage2}
+            class="max-w-lg rounded-lg shadow-2xl lg:mb-8 lg:mx-12"
           />
           <div className="lg:px-12 md:px-20">
             <h1 class="text-4xl font-semibold">

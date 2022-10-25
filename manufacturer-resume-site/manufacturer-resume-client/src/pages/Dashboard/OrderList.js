@@ -25,7 +25,9 @@ const OrderList = () => {
                      <td>{order.client}</td>
                      <td>{order.email}</td>
                      <td>{order.service}</td>
-                     <td>{order.service}</td>
+                     {
+                        order.paid ? <td className='text-green-500'>Paid</td > : <td className='text-orange-500'>Pending</td>
+                     }
                    </tr>)
                }
                 

@@ -18,7 +18,7 @@ const Review = () => {
       email: user.email,
     };
 
-    fetch("http://localhost:5000/review", {
+    fetch("https://manufacturer-resume.onrender.com/review", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

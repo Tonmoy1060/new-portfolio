@@ -24,7 +24,7 @@ const BookingModal = ({ bookingService, setBookingService }) => {
       clientNumber: number,
     };
 
-    fetch("http://localhost:5000/booking", {
+    fetch("https://manufacturer-resume.onrender.com/booking", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

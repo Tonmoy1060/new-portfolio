@@ -11,8 +11,8 @@ const useBookingData = () => {
 
   const [bookings, setBookings] = useState([]);
   useEffect(() => {
-    // const url = `http://localhost:5000/booking?email=${user.email}`
-    const url = `http://localhost:5000/booking/${user?.email}`;
+    // const url = `https://manufacturer-resume.onrender.com/booking?email=${user.email}`
+    const url = `https://manufacturer-resume.onrender.com/booking/${user?.email}`;
 
     fetch(url, {
       method: "GET",

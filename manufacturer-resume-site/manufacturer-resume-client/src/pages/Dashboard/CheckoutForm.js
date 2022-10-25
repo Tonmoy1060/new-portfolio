@@ -9,7 +9,7 @@ const CheckoutForm = ({ exactBooking }) => {
   const { _id, price, client, email, service, paid } = exactBooking;
 
   useEffect(() => {
-    fetch("http://localhost:5000/payment", {
+    fetch("https://manufacturer-resume.onrender.com/payment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -69,7 +69,7 @@ const CheckoutForm = ({ exactBooking }) => {
          transactionId : paymentIntent.id,
          service: service
       }
-      fetch(`http://localhost:5000/booking/${_id}`, {
+      fetch(`https://manufacturer-resume.onrender.com/booking/${_id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

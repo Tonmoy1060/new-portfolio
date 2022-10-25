@@ -30,7 +30,7 @@ const AddService = () => {
         if (img) {
           const service = { name: title, description, price, img };
 
-          fetch("http://localhost:5000/service", {
+          fetch("https://manufacturer-resume.onrender.com/service", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
