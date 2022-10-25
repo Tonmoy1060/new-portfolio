@@ -1,0 +1,44 @@
+[
+   {
+      "_id": 1,
+      "name": "Lara Haven",
+      "img": "https://img.freepik.com/free-photo/funny-3d-cartoon-casual-character_183364-80223.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "address": "Neon, Jupitar",
+      "say": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. "
+   },
+   {
+      "_id": 2,
+      "name": "Dolti Macao",
+      "address": "Astro, Moon",
+      "img": "https://img.freepik.com/free-photo/fun-3d-illustration-doctor-with-vr-helmet_183364-81017.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "say": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. "
+   },
+   {
+      "_id": 3,
+      "name": "Moon Agree",
+      "address": "Conco, Dumpland",
+      "img": "https://img.freepik.com/free-photo/3d-astronaut-falling-down-flat-circle-line-art-design-illustration_460848-7983.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "say": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. "
+   },
+   {
+      "_id": 4,
+      "name": "devid Rully",
+      "address": "Roar, Russia",
+      "img": "https://img.freepik.com/free-photo/cute-chef-girl-uniform-holding-pot-spoon-restaurant-mascot-character-logo-pink-background-3d-illustration-cartoon_56104-1610.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "say": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. "
+   },
+   {
+      "_id": 5,
+      "name": "Ablak Delay",
+      "address": "Monsty, Denmark",
+      "img": "https://img.freepik.com/free-photo/3d-render-astronaut-man-delivering-package-3d-illustration-design_460848-8274.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "say": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. "
+   },
+   {
+      "_id": 6,
+      "name": "Edrik Hunt",
+      "address": "Dump, Startmoon",
+      "img": "https://img.freepik.com/free-photo/funny-3d-illustration-cartoon-police-officer_183364-80394.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "say": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. "
+   }
+]

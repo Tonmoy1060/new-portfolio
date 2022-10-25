@@ -1,0 +1,44 @@
+[
+   {
+      "_id": 1,
+      "name": "Soccer Manager",
+      "img": "https://img.freepik.com/free-vector/gradient-abstract-football-background_23-2149001586.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "price": 120,
+      "description": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. Immerse yourself in the action as a football manager both on and off the pitch from planning training sessions, to building a world class stadium, controlling your club finances and discovering future superstars through an extensive scouting network and the dynamic transfer market."
+   },
+   {
+      "_id": 2,
+      "name": "Cricket Coach",
+      "price": 100,
+      "img": "https://img.freepik.com/premium-vector/ball-hitting-wicket-stumps_1302-15526.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "description": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. Immerse yourself in the action as a football manager both on and off the pitch from planning training sessions, to building a world class stadium, controlling your club finances and discovering future superstars through an extensive scouting network and the dynamic transfer market."
+   },
+   {
+      "_id": 3,
+      "name": "Badminton Expert",
+      "price": 220,
+      "img": "https://img.freepik.com/premium-photo/badminton-shuttlecock-racket-with-blur-player-backgroundxa_41969-5383.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "description": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. Immerse yourself in the action as a football manager both on and off the pitch from planning training sessions, to building a world class stadium, controlling your club finances and discovering future superstars through an extensive scouting network and the dynamic transfer market."
+   },
+   {
+      "_id": 4,
+      "name": "Basketball Super",
+      "price": 150,
+      "img": "https://img.freepik.com/free-photo/black-man-doing-sports-playing-basketball-sunrise-jumping-silhouette_285396-1440.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "description": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. Immerse yourself in the action as a football manager both on and off the pitch from planning training sessions, to building a world class stadium, controlling your club finances and discovering future superstars through an extensive scouting network and the dynamic transfer market."
+   },
+   {
+      "_id": 5,
+      "name": "Rugby Delay",
+      "price": 110,
+      "img": "https://img.freepik.com/free-photo/reading-glasses-row-shirt-sportsman-black_1134-863.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "description": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. Immerse yourself in the action as a football manager both on and off the pitch from planning training sessions, to building a world class stadium, controlling your club finances and discovering future superstars through an extensive scouting network and the dynamic transfer market."
+   },
+   {
+      "_id": 6,
+      "name": "Random Player",
+      "price": 20,
+      "img": "https://img.freepik.com/premium-vector/set-running-men-women-collection-silhouettes-running-people_178630-312.jpg?size=626&ext=jpg&uid=R71950161&ga=GA1.2.1970354224.1658404620",
+      "description": "As a Soccer Manager, you control all aspects of your club. Every transfer, every tactic, every football match counts. Immerse yourself in the action as a football manager both on and off the pitch from planning training sessions, to building a world class stadium, controlling your club finances and discovering future superstars through an extensive scouting network and the dynamic transfer market."
+   }
+]
