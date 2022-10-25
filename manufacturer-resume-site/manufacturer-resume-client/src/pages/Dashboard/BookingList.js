@@ -28,7 +28,7 @@ const BookingList = () => {
           </thead>
           <tbody>
             {bookings?.map((booking, index) => (
-              <tr>
+              <tr key={index}>
                 <th>{index + 1}</th>
                 <td>{booking?.client}</td>
                 <td>{booking?.service}</td>

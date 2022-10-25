@@ -45,23 +45,23 @@ const Book = () => {
       <div className="flex flex-col ">
         <input
           type="text"
-          value={user?.displayName}
+          defaultValue={user?.displayName}
           className="input font-semibold rounded-sm w-full max-w-lg"
         />
         <input
           type="text"
-          value={user?.email}
+          defaultValue={user?.email}
           className="input font-semibold rounded-sm w-full max-w-lg my-3"
         />
         <input
           type="text"
-          value={exactBooking.service}
+          defaultValue={exactBooking.service}
           className="input font-semibold rounded-sm w-full max-w-lg"
         />
       </div>
       <div>
-        <div class="card mt-10 bg-base-100 shadow-xl">
-          <div class="card-body">
+        <div className="card mt-10 bg-base-100 shadow-xl">
+          <div className="card-body">
             <Elements stripe={stripePromise}>
               <CheckoutForm exactBooking={exactBooking}/>
             </Elements>

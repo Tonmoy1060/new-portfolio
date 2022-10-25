@@ -33,12 +33,10 @@ const BookingModal = ({ bookingService, setBookingService }) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("Success:", order);
         toast(`${order?.service} added in dashboard,
         pay to confirm`)
       })
       .catch((error) => {
-        console.error('Error:', error);
         toast.error('sorry')
       });
       
@@ -56,50 +54,50 @@ const BookingModal = ({ bookingService, setBookingService }) => {
           action=""
         >
           <label
-            for="booking-modal"
-            class="btn btn-sm btn-circle absolute right-2 top-2"
+            htmlFor="booking-modal"
+            className="btn btn-sm btn-circle absolute right-2 top-2"
           >
             ✕
           </label>
           <input
             type="text"
             name="displayName"
-            value={user?.displayName}
-            class="input input-bordered w-full shadow-2xl max-w-sm"
+            defaultValue={user?.displayName}
+            className="input input-bordered w-full shadow-2xl max-w-sm"
           />
 
           <input
             type="text"
             name="name"
-            value={bookingService?.name}
-            class="input input-bordered my-3 shadow-2xl w-full max-w-sm"
+            defaultValue={bookingService?.name}
+            className="input input-bordered my-3 shadow-2xl w-full max-w-sm"
             required
           />
           <input
             type="text"
             name="price"
-            value={bookingService?.price}$
-            class="input input-bordered mb-3 shadow-2xl w-full max-w-sm"
+            defaultValue={bookingService?.price}$
+            className="input input-bordered mb-3 shadow-2xl w-full max-w-sm"
             required
           />
           <input
             type="number"
             name="number"
             placeholder="Your Number"
-            class="input input-bordered mb-3 shadow-2xl w-full max-w-sm"
+            className="input input-bordered mb-3 shadow-2xl w-full max-w-sm"
             required
           />
           <button>
           <label
             htmlFor="booking-modal"
-            class="btn btn-secondary w-full text-center text-white shadow-2xl max-w-sm"
+            className="btn btn-secondary w-full text-center text-white shadow-2xl max-w-sm"
           >
             Confirm
           </label>
           </button>
         </form>
       </div>
-      <ToastContainer />
+      
     </div>
   );
 };

@@ -14,8 +14,8 @@ const Testimonials = () => {
      Testimonials
    </h1>
    <div className="lg:grid grid-cols-3 gap-8 px-28">
-     {comments.slice(0, 3).map((comment) => (
-       <Testimonial comment={comment}></Testimonial>
+     {comments.slice(0, 3).map((comment,index) => (
+       <Testimonial key={index} comment={comment}></Testimonial>
      ))}
    </div>
  </div>

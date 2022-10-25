@@ -12,28 +12,28 @@ const MessageSection = () => {
             <input
               type="text"
               placeholder="First Name"
-              class="input w-full max-w-sm lg:mr-5 mb-5"
+              className="input w-full max-w-sm lg:mr-5 mb-5"
             />
             <input
               type="text"
               placeholder="Last Name"
-              class="input w-full max-w-sm mb-5"
+              className="input w-full max-w-sm mb-5"
             />
           </div>
           <div className="lg:flex ">
             <input
               type="text"
               placeholder="Email Address"
-              class="input w-full max-w-sm lg:mr-5 mb-5"
+              className="input w-full max-w-sm lg:mr-5 mb-5"
             />
             <input
               type="text"
               placeholder="Phone Number"
-              class="input w-full max-w-sm mb-5"
+              className="input w-full max-w-sm mb-5"
             />
           </div>
           <textarea
-            class="textarea  w-full lg:max-w-full max-w-sm"
+            className="textarea  w-full lg:max-w-full max-w-sm"
             placeholder="Your Message"
           ></textarea>
           <div className="flex justify-center items-center mt-6">

@@ -47,7 +47,7 @@ const Review = () => {
           type="text"
           name="name"
           placeholder="Your Name"
-          class="input w-full max-w-xs"
+          className="input w-full max-w-xs"
           required
         />
         <br />
@@ -55,18 +55,18 @@ const Review = () => {
           type="text"
           name="location"
           placeholder="Location"
-          class="input w-full my-4 max-w-xs"
+          className="input w-full my-4 max-w-xs"
           required
         />
         <br />
         <textarea
-          class="textarea w-full mb-4 max-w-xs"
+          className="textarea w-full mb-4 max-w-xs"
           placeholder="Say details"
           name="comment"
           required
         ></textarea>
         <br />
-        <button class="btn text-white px-9 btn-sm btn-primary">Submit</button>
+        <button className="btn text-white px-9 btn-sm btn-primary">Submit</button>
       </form>
       <ToastContainer />
     </div>

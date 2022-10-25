@@ -41,10 +41,10 @@ const Login = () => {
   }
   return (
     <div className="flex justify-center items-center h-screen">
-      <div class="card w-1/4 shadow-2xl">
+      <div className="card w-1/4 shadow-2xl">
         <h1 className="text-center text-2xl pt-2  font-semibold ">Login</h1>
 
-        <div class="flex flex-col p-4 py-5  w-full border-opacity-50">
+        <div className="flex flex-col p-4 py-5  w-full border-opacity-50">
           <form
             onSubmit={handleSignIn}
             className="flex justify-center items-center w-full"
@@ -55,16 +55,16 @@ const Login = () => {
                 type="text"
                 name="email"
                 placeholder="Type email"
-                class="input input-bordered w-full shadow-2xl max-w-xs"
+                className="input input-bordered w-full shadow-2xl max-w-xs"
               />
               <input
                 type="text"
                 name="password"
                 placeholder="Your password"
-                class="input input-bordered my-3 shadow-2xl w-full max-w-xs"
+                className="input input-bordered my-3 shadow-2xl w-full max-w-xs"
               />
               <button
-                class="input w-1/2 bg-secondary mt-2 text-white shadow-2xl max-w-xs"
+                className="input w-1/2 bg-secondary mt-2 text-white shadow-2xl max-w-xs"
               >Login</button>
             </div>
           </form>
@@ -92,11 +92,11 @@ const Login = () => {
               <small>{errorMessage}</small>
             </p>
           </label>
-          <div class="divider pb-0 pt-3 px-5">OR</div>
-          <div class="grid h-22 card pt-5 pb-3 rounded-box place-items-center">
+          <div className="divider pb-0 pt-3 px-5">OR</div>
+          <div className="grid h-22 card pt-5 pb-3 rounded-box place-items-center">
             <button
               onClick={() => signInWithGoogle()}
-              class="btn btn-primary input w-full max-w-xs  text-sm text-white"
+              className="btn btn-primary input w-full max-w-xs  text-sm text-white"
             >
               <FcGoogle className="text-2xl "></FcGoogle>oogle
             </button>

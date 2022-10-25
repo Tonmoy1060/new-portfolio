@@ -46,12 +46,12 @@ const Register = () => {
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <div class="card w-1/4 shadow-2xl">
+      <div className="card w-1/4 shadow-2xl">
         <h1 className="text-center text-2xl font-semibold shadow-2xl">
           Register
         </h1>
 
-        <div class="flex flex-col p-4 py-5  w-full border-opacity-50">
+        <div className="flex flex-col p-4 py-5  w-full border-opacity-50">
           <form
             onSubmit={handleRegister}
             className="flex justify-center items-center w-full"
@@ -62,24 +62,24 @@ const Register = () => {
                 type="text"
                 name="name"
                 placeholder="Full Name"
-                class="input input-bordered w-full shadow-2xl max-w-xs"
+                className="input input-bordered w-full shadow-2xl max-w-xs"
                 required
               />
               <input
                 type="text"
                 name="email"
                 placeholder="Type email"
-                class="input input-bordered my-3 shadow-2xl w-full max-w-xs"
+                className="input input-bordered my-3 shadow-2xl w-full max-w-xs"
                 required
               />
               <input
                 type="text"
                 name="password"
                 placeholder="Your password"
-                class="input input-bordered mb-3 shadow-2xl w-full max-w-xs"
+                className="input input-bordered mb-3 shadow-2xl w-full max-w-xs"
                 required
               />
-              <button class="btn btn-secondary w-1/2  text-white shadow-2xl max-w-xs">
+              <button className="btn btn-secondary w-1/2  text-white shadow-2xl max-w-xs">
                 Register
               </button>
             </div>
@@ -101,11 +101,11 @@ const Register = () => {
               </small>
             </p>
           </label>
-          <div class="divider pb-0 mb-0 px-5">OR</div>
-          <div class="grid h-22 card pt-5  rounded-box place-items-center">
+          <div className="divider pb-0 mb-0 px-5">OR</div>
+          <div className="grid h-22 card pt-5  rounded-box place-items-center">
             <button
               onClick={() => signInWithGoogle()}
-              class="btn btn-primary input w-full max-w-xs text-sm text-white"
+              className="btn btn-primary input w-full max-w-xs text-sm text-white"
             >
               Goo<FcGoogle className="text-2xl"></FcGoogle>le
             </button>

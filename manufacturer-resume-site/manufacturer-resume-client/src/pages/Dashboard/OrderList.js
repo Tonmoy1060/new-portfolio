@@ -19,7 +19,7 @@ const OrderList = () => {
               <tbody>
                {
                   orders.map((order, index )=> <tr
-                     order = {order}
+                     key = {index}
                   >
                      <th>{index + 1}</th>
                      <td>{order.client}</td>

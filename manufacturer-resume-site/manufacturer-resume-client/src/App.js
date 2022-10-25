@@ -18,6 +18,7 @@ import RequireAdmin from "./pages/Shared/RequireAdmin";
 import OrderList from "./pages/Dashboard/OrderList";
 import AddService from "./pages/Dashboard/AddService";
 import PageNotFound from "./pages/Shared/PageNotFound";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
         <Route path="*" element={<PageNotFound></PageNotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 }

@@ -14,6 +14,7 @@ const AllServices = () => {
       <div className="lg:grid grid-cols-4 gap-7 p-14">
         {services.map((service) => (
           <AllService
+            key={service._id}
             setBookingService={setBookingService}
             service={service}
           ></AllService>

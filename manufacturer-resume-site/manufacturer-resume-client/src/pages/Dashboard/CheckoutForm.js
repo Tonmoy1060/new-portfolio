@@ -1,11 +1,11 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 const CheckoutForm = ({ exactBooking }) => {
   const [cardError, setCardError] = useState("");
   const [clientSecret, setClientSecret] = useState(" ");
   const [success, setSuccess] = useState('');
-  console.log(success)
   const { _id, price, client, email, service, paid } = exactBooking;
 
   useEffect(() => {
@@ -79,9 +79,9 @@ const CheckoutForm = ({ exactBooking }) => {
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
+         toast(`payment complete for ${service}`)
+         e.target.reset();
         });
-        e.target.reset();
     }
   };
   return (
@@ -111,7 +111,7 @@ const CheckoutForm = ({ exactBooking }) => {
             type="submit"
             disabled={!stripe || !clientSecret || paid || success}
           >
-         Already Paid
+         Paid
           </button> :
           <button 
             className="btn btn-success btn-sm mt-5"

@@ -36,7 +36,7 @@ const Dashboard = () => {
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
           <ul className="menu p-4 py-9 overflow-y-auto w-50 bg-cyan-50 text-base-content">
             {/* <!-- Sidebar content here --> */}
-            <li class="flex  justify-start">
+            <li className="flex  justify-start">
               <Link
                 className="btn btn-ghost hover:text-primary justify-start items-center text-secondary flex justify-start"
                 to="/dashboard"
@@ -46,7 +46,7 @@ const Dashboard = () => {
               </Link>
             </li>
 
-            {/* <li class="flex  justify-start">
+            {/* <li className="flex  justify-start">
               <Link to={`/dashboard/book/+${}`}
                 className="btn btn-ghost hover:text-primary justify-start items-center text-secondary"
               >
@@ -55,7 +55,7 @@ const Dashboard = () => {
               </Link>
             </li> */}
 
-            <li class="flex  justify-start">
+            <li className="flex  justify-start">
               <Link
                 className="btn btn-ghost hover:text-primary justify-start items-center text-secondary"
                 to="/dashboard/review"
@@ -65,7 +65,7 @@ const Dashboard = () => {
               </Link>
             </li>
             {admin && (
-              <li class="flex  justify-start">
+              <li className="flex  justify-start">
                 <Link
                   className="btn btn-ghost hover:text-primary justify-start items-center text-secondary"
                   to="/dashboard/makeAdmin"
@@ -77,7 +77,7 @@ const Dashboard = () => {
               </li>
             )}
             {admin && (
-              <li class="flex  justify-start">
+              <li className="flex  justify-start">
                 <Link
                   className="btn btn-ghost hover:text-primary justify-start items-center text-secondary"
                   to="/dashboard/orderList"
